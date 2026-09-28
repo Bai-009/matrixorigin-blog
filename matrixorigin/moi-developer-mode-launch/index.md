@@ -23,4 +23,14 @@ status: draft
 
 Astra 和 moi-cli 共用同一次登录，凭据不会进入对话。Agent 按你的 MOI 账号权限操作，在本机执行命令前默认会先征得你的同意。
 
-开发者模式目前支持 macOS 和 Linux，安装与使用方法见 MOI 文档[《在终端安装 Astra 并查询 MOI 工作区》](https://docs.matrixorigin.cn/moi/zh/5.0/tutorials/astra-cli-first-use.html)。
+## 如何开始
+
+开发者模式目前支持 macOS 和 Linux。在终端依次运行下面三条命令：安装 Astra 和 moi-cli，在浏览器中登录 MOI 账号，然后开始对话。
+
+```bash
+curl -fsSL https://get.matrixorigin.cn/astra | sh
+astra login
+astra
+```
+
+完整步骤见 MOI 文档[《在终端安装 Astra 并查询 MOI 工作区》](https://docs.matrixorigin.cn/moi/zh/5.0/tutorials/astra-cli-first-use.html)。
