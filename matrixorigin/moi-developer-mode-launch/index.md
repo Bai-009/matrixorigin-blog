@@ -15,7 +15,7 @@ status: draft
 
 # MOI 开发者模式上线
 
-今天，矩阵起源 AI 数据平台 MatrixOne Intelligence（MOI）的开发者模式上线。安装客户端、用 MOI 账号登录一次，Agent 使用 MOI 所需的模型、身份和 Skill 就都已备好：无需自备 API Key，也无需另建个人访问令牌。
+矩阵起源 AI 数据平台 MatrixOne Intelligence（MOI）的开发者模式已上线。安装客户端、用 MOI 账号登录一次，Agent 使用 MOI 所需的模型、身份和 Skill 就都已备好：无需自备 API Key，也无需另建个人访问令牌。
 
 开发者模式包含两部分。MOI 的命令行工具 moi-cli 是 Agent 调用 MOI 的入口，可以查询数据、运行工作流、使用知识库。它自带一份写给 Agent 的 Skill，说明每类任务该用哪条命令、资源 ID 从哪里取、写入前要确认什么。moi-cli 本身是普通的命令行工具，其他能运行命令的 Agent 同样可以调用它，也可以直接写进脚本。
 
