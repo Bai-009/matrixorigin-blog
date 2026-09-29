@@ -7,8 +7,8 @@ keywords: ["JEV", "Agent Memory", "AI Agent", "记忆检索", "LLM 评估"]
 date: "2026-09-20T17:00:00+08:00"
 publishTime: "2026-09-20T17:00:00+08:00"
 image:
-  "1": "./images/1.png"
-  "235": "./images/1.png"
+  "1": "/images/blog-covers/technical.png"
+  "235": "/images/blog-covers/technical.png"
 lang: zh
 status: published
 ---
